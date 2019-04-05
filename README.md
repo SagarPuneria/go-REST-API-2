@@ -26,7 +26,7 @@ Using fake REST API ``https://jsonplaceholder.typicode.com/albums`` get array of
 ```
 Insert above date into album table.
 
-Every album id has set photos. To get set of photos by using above album id frame another URL like ``https://jsonplaceholder.typicode.com/photos?albumId=1`` get array of JSON response for every album id as shown below:
+Every album id has set photos. To get set of photos by using above album id frame another URL like ``https://jsonplaceholder.typicode.com/photos?albumId=1`` to get array of JSON response for every album id as shown below:
 ```sh
 [
   {
