@@ -54,7 +54,7 @@ Every album id has set photos. To get set of photos by using above album id fram
 ```
 Insert above date into photo table.
 
-Create a generic GET API endpoint to get specific the records from respective table. Specific table should be mentioned in Query Params ``key=value`` pair like type=album and id=3 or type=photo and id=3 which will give json response body.
+Create a generic GET API endpoint to get specific the records from respective table. Specific table should be mentioned in Query Params ``key=value`` pair like type=album and id=3 or type=photo and id=1 which will give json response body.
 ```sh
  GET http://localhost:8080/search?type=album&id=3
  GET http://localhost:8080/search?type=photo&id=1
